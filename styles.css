@@ -1,0 +1,293 @@
+*
+{
+/*margin: 0px;*/
+}
+
+a:link {
+	color: #D72020;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #D72020;
+}
+
+body {
+	background: #FFFFFF;
+	font: 13px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+}
+								/*------------- Container -------------*/
+#container
+{
+	background: #F0FFFF;
+	width: auto;
+}
+								/*------------- Header -------------*/
+#header
+{
+	width: 100%;
+	height: 70px;
+	background: #66CDAA;
+}
+								/*------------- Menu -------------*/
+#menu
+{
+	width: 100%;
+	height: 40px;
+	background: #F0FFFF;
+}
+
+#menu a
+{
+	float: none;
+	width: 100%;
+	height: auto;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-weight: none;
+	font-size: 20px;
+	padding-top: 8px;
+}
+
+#menu a:hover /*подсветка ссылок красным + линия под ними при наведении стрелки*/
+{	
+	color: #D72020;
+	text-decoration: underline;
+}
+
+
+#menu1
+{
+	float: left;
+	width: 16%;
+	height: auto;
+}
+
+#menu2
+{
+	float: left;
+	width: 16%;
+	height: auto;
+}
+
+#menu3
+{
+	float: left;
+	width: 16%;
+	height: auto;
+}
+
+#menu4
+{
+	float: left;
+	width: 16%;
+	height: auto;
+}
+
+#menu5
+{
+	float: left;
+	width: 16%;
+	height: auto;
+}
+
+#menu6
+{
+	float: left;
+	width: 16%;
+	height: auto;
+}
+
+
+#hidden1 a
+{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 14px;
+	padding-top: 0;	
+}
+
+#hidden1 ul ul ul ul a
+{
+	color: #800080;
+}
+#hidden1 ul ul ul a
+{
+	color: #800000;
+}
+#hidden1 ul ul a
+{
+	color: #008000;
+}
+#hidden1 ul a
+{
+	color: #000080;
+}
+
+#hidden2 a
+{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 14px;
+	padding-top: 0;
+}
+
+#hidden2 ul ul ul ul a
+{
+	color: #800080;
+}
+#hidden2 ul ul ul a
+{
+	color: #800000;
+}
+#hidden2 ul ul a
+{
+	color: #008000;
+}
+#hidden2 ul a
+{
+	color: #000080;
+}
+
+#hidden3 a
+{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 14px;
+	padding-top: 0;
+}
+
+#hidden3 ul ul ul ul a
+{
+	color: #800080;
+}
+#hidden3 ul ul ul a
+{
+	color: #800000;
+}
+#hidden3 ul ul a
+{
+	color: #008000;
+}
+#hidden3 ul a
+{
+	color: #000080;
+}
+
+#hidden4 a
+{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 14px;
+	padding-top: 0;	
+}
+
+#hidden4 ul ul ul ul a
+{
+	color: #800080;
+}
+#hidden4 ul ul ul a
+{
+	color: #800000;
+}
+#hidden4 ul ul a
+{
+	color: #008000;
+}
+#hidden4 ul a
+{
+	color: #000080;
+}
+
+#hidden5 a
+{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 14px;
+	padding-top: 0;
+}
+
+#hidden5 ul ul ul ul a
+{
+	color: #800080;
+}
+#hidden5 ul ul ul a
+{
+	color: #800000;
+}
+#hidden5 ul ul a
+{
+	color: #008000;
+}
+#hidden5 ul a
+{
+	color: #000080;
+}
+
+#hidden6 a
+{
+	text-align: left;
+	padding-bottom: 5px;
+	font-size: 14px;
+	padding-top: 0;
+}
+
+#hidden6 ul ul ul ul a
+{
+	color: #800080;
+}
+#hidden6 ul ul ul a
+{
+	color: #800000;
+}
+#hidden6 ul ul a
+{
+	color: #008000;
+}
+#hidden6 ul a
+{
+	color: #000080;
+}
+									/*------------- Content -------------*/
+#content
+{
+	float: right;
+	width: auto;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#content h2
+{
+	text-align: center;
+	color: #D72020;
+}
+
+#content p
+{
+	color: #3c3c3c;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 23px;
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility;
+	text-indent: 20px; /* Отступ первой строки в пикселах */
+}
+
+#content a
+{
+	color: #D72020;
+	text-decoration: none;
+}
+
+#content hr
+{
+	color: #66CDAA;
+}
