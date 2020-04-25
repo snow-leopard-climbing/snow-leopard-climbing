@@ -1,7 +1,5 @@
-<script>
-	function view(n)
-	{
-		style = document.getElementById(n).style;
-		style.display = (style.display == 'block') ? 'none' : 'block';
-	}
-</script>
+function view(n)
+{
+	style = document.getElementById(n).style;
+	style.display = (style.display == 'block') ? 'none' : 'block';
+}
