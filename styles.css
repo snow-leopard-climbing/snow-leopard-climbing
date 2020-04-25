@@ -260,8 +260,6 @@ body {
 {
 	float: right;
 	width: auto;
-	margin-left: 200px;
-	margin-right: 200px;
 }
 
 #content h1
@@ -297,4 +295,22 @@ body {
 #content hr	/*полоса*/
 {
 	color: #66CDAA;
+}
+
+#left
+{
+	float: left;
+	width: 15%;
+}
+
+#center
+{
+	float: left;
+	width: 70%;
+}
+
+#right
+{
+	float: left;
+	width: 15%;
 }
