@@ -7,17 +7,7 @@
 <meta name="description" content="">
 <link href="https://snow-leopard-climbing.github.io/styles.css" rel="stylesheet" type="text/css" media="screen">
 
-<script src="jquery.js"></script>
-
-<script>
-  $(function(){
-    var includes = $('[data-include]');
-    jQuery.each(includes, function(){
-      var file = $(this).data('include') + '.html';
-      $(this).load(file);
-    });
-  });
-</script>
+<script src="csi.min.js"></script>
 
 </head>
 <body>
@@ -25,14 +15,14 @@
 <div id="container">
 
 <!------------------------------------------------------------ Шапка ---------------------------------------------------------------->
-	<div data-include="header">
+	<div data-include="header.html">
 	
 	</div>
 <!------------------------------------------------------------ Конец шапки ---------------------------------------------------------->
 	
 	
 <!------------------------------------------------------------ Меню ----------------------------------------------------------------->	
-	<div data-include="menu">
+	<div data-include="menu.html">
 		
 	</div>
 <!------------------------------------------------------------ Конец меню ----------------------------------------------------------->
