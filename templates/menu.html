@@ -1,121 +1,100 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Climbing</title>
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-	<link href="https://snow-leopard-climbing.github.io/styles.css" rel="stylesheet" type="text/css" media="screen">
-	
-	<script src="https://snow-leopard-climbing.github.io/js/csi.min.js"></script>
+﻿<div id="menu">
 
-</head>
-<body>
-
-
-<!------------------------------------------------------------ Меню ----------------------------------------------------------------->	
-	<div id="menu">
-		<div id="menu1" >
-			<a href="https://snow-leopard-climbing.github.io/pages/warm_up/warm_up.html">Разминка</a>
-			<div id="hidden1" style="display: none;">
-			
-			</div>
+	<div id="menu1" >
+		<a href="https://snow-leopard-climbing.github.io/pages/warm_up/warm_up.html">Разминка</a>
+		<div id="hidden1" style="display: none;">
+		
 		</div>
-			
-		<div id="menu2" >
-			<a href="#" onclick="view('hidden2'); return false">Отдых &#11015;</a>
-			<div id="hidden2" style="display: none;">
-				<ul>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/rest/video.html">Видео</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/rest/knots.html">Узлы</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/rest/games.html">Игры</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/rest/Schulte_tables.html">Таблицы Шульте</a></li>
-					<li><a href="#">Теория</a>
-						<ul>
-							<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/about_climbing_wall.html">Устройство скалодрома</a></li>
-							<li><a href="#">Дисциплины скалолазания</a>
-								<ul>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/lead.html">Трудность</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/speed.html">Скорость</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/bouldering.html">Боулдеринг</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/combined.html">Многоборье</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/duel.html">Дуэль</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Скалы</a>
-								<ul>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/rocks/perm_region.html">Пермского края</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/rocks/nearby_regions.html">Ближайших регионов</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/rocks/world.html">Мира</a></li>
-								</ul>							
-							</li>
-							<li><a href="#">Снаряжение</a>
-								<ul>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/equipment/for_rock_climbing.html">Скалолазное</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/equipment/for_alpinism.html">Альпинистское</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/equipment/for_tourist.html">Туристическое</a></li>
-								</ul>
-							</li>
-							<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/health.html">Здоровье</a></li>						
-							<li><a href="#">Соревнования</a>
-								<ul>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/competitions/rules.html">Правила</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/competitions/before_start.html">Подготовка к старту</a></li>
-									<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/competitions/ranks.html">Разряды</a></li>
-								</ul>								
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-
-		<div id="menu3">
-			<a href="#hidden3" onclick="view('hidden3'); return false">Лазание &#11015;</a>
-			<div id="hidden3" style="display: none;">
-				<ul>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/game.html">Игровое</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/endurance.html">Выносливость</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/technique.html">Техника</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/bouldering.html">Боулдеринг</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/speed.html">Скорость</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/lead.html">Трудность</a></li>
-				</ul>				
-			</div>
-		</div>
-
-		<div id="menu4">
-			<a href="#hidden4" onclick="view('hidden4'); return false">ОФП, СФП &#11015;</a>
-			<div id="hidden4" style="display: none;">
-				<ul>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/stomach.html">Пресс</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/back.html">Спина</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/legs.html">Ноги</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/shoulder.html">Плечевой пояс</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/arms.html">Руки</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/fingers.html">Пальцы</a></li>
-					<li><a href="https://snow-leopard-climbing.github.io/pages/power/shin.html">Икры</a></li>
-				</ul>			
-			</div>
-		</div>
-
-		<div id="menu5">
-			<a href="https://snow-leopard-climbing.github.io/pages/coordination/coordination.html">Координация</a>
-			<div id="hidden5" style="display: none;">
-			
-			</div>
-		</div>
-
-		<div id="menu6">
-			<a href="https://snow-leopard-climbing.github.io/pages/stretch/stretch.html">Растяжка</a>
-			<div id="hidden6" style="display: none;">
-			
-			</div>
-		</div>	
 	</div>
-<!------------------------------------------------------------ Конец меню ----------------------------------------------------------->
+		
+	<div id="menu2" >
+		<a href="#" onclick="view('hidden2'); return false">Отдых &#11015;</a>
+		<div id="hidden2" style="display: none;">
+			<ul>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/rest/video.html">Видео</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/rest/knots.html">Узлы</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/rest/games.html">Игры</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/rest/Schulte_tables.html">Таблицы Шульте</a></li>
+				<li><a href="#">Теория</a>
+					<ul>
+						<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/about_climbing_wall.html">Устройство скалодрома</a></li>
+						<li><a href="#">Дисциплины скалолазания</a>
+							<ul>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/lead.html">Трудность</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/speed.html">Скорость</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/bouldering.html">Боулдеринг</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/combined.html">Многоборье</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/climbing_disciplines/duel.html">Дуэль</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Скалы</a>
+							<ul>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/rocks/perm_region.html">Пермского края</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/rocks/nearby_regions.html">Ближайших регионов</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/rocks/world.html">Мира</a></li>
+							</ul>							
+						</li>
+						<li><a href="#">Снаряжение</a>
+							<ul>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/equipment/for_rock_climbing.html">Скалолазное</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/equipment/for_alpinism.html">Альпинистское</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/equipment/for_tourist.html">Туристическое</a></li>
+							</ul>
+						</li>
+						<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/health.html">Здоровье</a></li>						
+						<li><a href="#">Соревнования</a>
+							<ul>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/competitions/rules.html">Правила</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/competitions/before_start.html">Подготовка к старту</a></li>
+								<li><a href="https://snow-leopard-climbing.github.io/pages/rest/theory/competitions/ranks.html">Разряды</a></li>
+							</ul>								
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-</body>
-</html>
+	<div id="menu3">
+		<a href="#hidden3" onclick="view('hidden3'); return false">Лазание &#11015;</a>
+		<div id="hidden3" style="display: none;">
+			<ul>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/game.html">Игровое</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/endurance.html">Выносливость</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/technique.html">Техника</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/bouldering.html">Боулдеринг</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/speed.html">Скорость</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/climbing_on_wall/lead.html">Трудность</a></li>
+			</ul>				
+		</div>
+	</div>
 
-	<script src="https://snow-leopard-climbing.github.io/js/click_menu.js"></script>
+	<div id="menu4">
+		<a href="#hidden4" onclick="view('hidden4'); return false">ОФП, СФП &#11015;</a>
+		<div id="hidden4" style="display: none;">
+			<ul>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/stomach.html">Пресс</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/back.html">Спина</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/legs.html">Ноги</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/shoulder.html">Плечевой пояс</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/arms.html">Руки</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/fingers.html">Пальцы</a></li>
+				<li><a href="https://snow-leopard-climbing.github.io/pages/power/shin.html">Икры</a></li>
+			</ul>			
+		</div>
+	</div>
+
+	<div id="menu5">
+		<a href="https://snow-leopard-climbing.github.io/pages/coordination/coordination.html">Координация</a>
+		<div id="hidden5" style="display: none;">
+		
+		</div>
+	</div>
+
+	<div id="menu6">
+		<a href="https://snow-leopard-climbing.github.io/pages/stretch/stretch.html">Растяжка</a>
+		<div id="hidden6" style="display: none;">
+		
+		</div>
+	</div>	
+</div>
